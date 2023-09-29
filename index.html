@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Shradha's Temperature Converter</h1>
+    </header>
+    <main>
+      <section class="converter">
+        <div class="input-group">
+          <label for="celsius">Celsius:</label>
+          <input
+            type="number"
+            name="celsius"
+            id="celsius"
+            class="temperature-input"
+            placeholder="Enter temperature in Celsius"
+          />
+        </div>
+        <div class="input-group">
+          <label for="fahrenheit">Fahrenheit:</label>
+          <input
+            type="number"
+            name="fahrenheit"
+            id="fahrenheit"
+            class="temperature-input"
+            placeholder="Enter temperature in Fahrenheit"
+          />
+        </div>
+        <div class="input-group">
+          <label for="kelvin">Kelvin:</label>
+          <input
+            type="number"
+            name="kelvin"
+            id="kelvin"
+            class="temperature-input"
+            placeholder="Enter temperature in Kelvin"
+          />
+        </div>
+        <button id="convertButton">Convert</button>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
+
